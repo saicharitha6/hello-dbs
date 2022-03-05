@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <div class="appointment">
+            <div class="form">
+                <input type="text" name="id" id="id" placeholder="Enter Your ID">
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+                <input type="text" name="emailid" id="emailid" placeholder="Email ID">
+                <input type="datetime-local" id="apptime" name="apptime">
+                Location
+                <select name="location" id="location"  placeholder="Choose Location">   
+                    <option value = "home"> Home   
+                    </option>  
+                    <option value = "office"> Office  
+                    </option>   
+                </select>
+                <button type="button" id="button">Book Appointment</button>  
+            </div>
+        </div>
+        <div class="schedules" id="schedules">
+            <!-- <div class="event">
+                <div class="details">
+                    <h2 class="time">05-02-2022 09:30</h2>
+                <h2 class="place">Home</h2>
+                </div>
+                <div class="status">Pending</div>
+            </div> -->
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

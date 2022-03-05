@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.appointment{
+    width: 40%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(231, 231, 228);
+}
+input,select{
+    margin-bottom: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.schedules{
+    width: 50%;
+}
+.event{
+    background-color: bisque;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+
