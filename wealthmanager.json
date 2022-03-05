@@ -1,0 +1,19 @@
+db.wealth.insert(
+[
+    {
+        "user_id":1,
+        "bankname":"DBS",
+        "service_no":123
+    },
+    {
+        "user_id":2,
+        "bankname":"statebank",
+        "service_no":234
+    },
+    {
+        "user_id":2,
+        "bankname":"Indianbank",
+        "service_no":333
+    }
+]
+)

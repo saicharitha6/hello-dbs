@@ -1,0 +1,37 @@
+db.data.insert(
+[
+    {
+        "user_id":1,
+        "name":"mr.rao",
+        "email":"rao@gmail.com",
+        "phoneno":9333039355,
+        "appointment_id":1052,
+        "investment":120000,
+        "start_time":"2022-03-05 11:30:29",
+        "location":"hyderabad",
+        "profit/loss":"null"
+    },
+    {
+        "user_id":2,
+        "name":"mr.sham",
+        "email":"sham@gmail.com",
+        "phoneno":8466216337,
+        "appointment_id":1060,
+        "investment":130000,
+        "start_time":"2022-03-05 12:30:29",
+        "location":"delhi",
+        "profit/loss":"profit"
+    },
+    {
+    "user_id":3,
+    "name":"mr.ashodhar",
+    "email":"ashodhar@gmail.com",
+    "phoneno":9956265238,
+    "appointment_id":1070,
+    "investment":150000,
+    "start_time":"2022-03-05 12:30:29",
+    "location":"mumbai",
+    "profit/loss":"loss"
+    }
+]
+)
